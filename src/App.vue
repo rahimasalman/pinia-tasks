@@ -4,8 +4,13 @@
     <header>
       <img src="./assets/pinia.svg" alt="pinia-logo">
       <h1>Pinia task</h1>
-
     </header>
+
+    <!--    add new task form-->
+    <div class="new-task-form">
+      <task-form/>
+    </div>
+
     <!--    filter-->
     <nav class="filter">
       <button @click="filter = 'all'">All tasks</button>
@@ -31,9 +36,11 @@
 import TaskDetails from "@/components/TaskDetails.vue";
 import {useTaskStore} from "@/stores/TaskStore.js";
 import {ref} from "vue";
+import TaskForm from "@/components/TaskForm.vue";
 
 export default {
 	components: {
+		TaskForm,
 		TaskDetails
 	},
 	setup() {
