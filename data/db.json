@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Buy some vegetables",
+      "isFav": false
+    },
+    {
+      "id": "2",
+      "title": "Write a code",
+      "isFav": true
+    },
+    {
+      "title": "Take a nap",
+      "isFav": false,
+      "id": "562070"
+    },
+    {
+      "id": 578,
+      "title": "Cook a meal",
+      "isFav": false
+    },
+    {
+      "id": 600,
+      "title": "Go for a walk",
+      "isFav": false
+    },
+    {
+      "id": 847,
+      "title": "Meet with your friend",
+      "isFav": false
+    },
+    {
+      "id": 703,
+      "title": "Stay Vegan",
+      "isFav": false
+    }
+  ]
+}

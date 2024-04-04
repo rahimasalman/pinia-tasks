@@ -19,8 +19,7 @@ export default {
 	props: ["task"],
 	setup() {
 		const taskStore = useTaskStore();
-
 		return {taskStore};
-	}
+	},
 };
 </script>
